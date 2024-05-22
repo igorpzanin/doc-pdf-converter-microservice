@@ -11,7 +11,8 @@ The main goal is to run the Python application every 5 minutes in a Docker conta
 3) Apply terraform
 >     terraform apply -y
 
-<h2>2) SSH aws ec2<h2>
+<h2>2) SSH aws ec2</h2>
+
 Before join SSH you must copy the microservice directory into de ec2 instance:
 
 >     scp -i /your/path/to/aws-ec2-server.pem -r /home/user/my_project ec2-user@192.0.2.0:/home/ubuntu
