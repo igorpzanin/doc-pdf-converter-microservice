@@ -1,0 +1,7 @@
+services:
+  app:
+    image: igorpzanin/app:v2
+    ports:
+    - "8080:8080"
+    volumes:
+      - /home/ubuntu/wordpdfconverter/tmp:/app/tmp
